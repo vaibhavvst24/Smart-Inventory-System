@@ -2,8 +2,6 @@
 
 A web-based inventory management solution built with **Python** and **Flask**, allowing users to add, update, view, delete, and export inventory records in a user-friendly interface. This project is ideal for small businesses or individual use cases where tracking product stock, pricing, and supplier information is essential.
 
----
-
 ## 🚀 Features
 
 - 🔐 Login system with custom HTML & CSS (optional)
@@ -41,18 +39,27 @@ A web-based inventory management solution built with **Python** and **Flask**, a
 
 inventory-management/
 │
+
 ├── static/
+
 │   └── styles/             # Custom CSS files for pages
 │
 
+
 ├── templates/
+
 │   ├── index.html
+
 │   ├── add_item.html
+
 │   ├── update_item.html
+
 │
 
-├── app.py                 # Main Flask application
+├── app.py   # Main Flask application
+
 ├── export.csv             # CSV output (generated on export)
+
 ├── README.md
 
 ## ✅ Future Enhancements
